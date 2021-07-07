@@ -2,7 +2,7 @@
 //  ViewController.h
 //  TruexSimpleReferenceApp
 //
-//  Created by Isaiah Mann on 6/30/21.
+//  Copyright © 2021 true[X]. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
