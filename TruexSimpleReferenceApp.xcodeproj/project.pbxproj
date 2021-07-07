@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,43 @@
 		40240E6C268D0BF100426D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40240E6B268D0BF100426D49 /* Assets.xcassets */; };
 		40240E6F268D0BF100426D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40240E6D268D0BF100426D49 /* LaunchScreen.storyboard */; };
 		40240E72268D0BF100426D49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40240E71268D0BF100426D49 /* main.m */; };
+		407CFCD026958B66004F2605 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCCF26958B66004F2605 /* CryptoSwift.framework */; };
+		407CFCD226958B6B004F2605 /* InnovidAdRenderer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCD126958B6B004F2605 /* InnovidAdRenderer.xcframework */; };
+		407CFCD426958B6F004F2605 /* PusherSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCD326958B6F004F2605 /* PusherSwift.framework */; };
+		407CFCD626958B72004F2605 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCD526958B72004F2605 /* Reachability.framework */; };
+		407CFCD826958B78004F2605 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCD726958B78004F2605 /* SDWebImage.framework */; };
+		407CFCDA26958B7C004F2605 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCD926958B7C004F2605 /* Starscream.framework */; };
+		407CFCDC26958B80004F2605 /* TruexAdRenderer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCDB26958B80004F2605 /* TruexAdRenderer.framework */; };
+		407CFCDE26958B85004F2605 /* TVOS360Video.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCDD26958B85004F2605 /* TVOS360Video.framework */; };
+		407CFCE026958B8D004F2605 /* CryptoSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCDF26958B8D004F2605 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		407CFCE226958B93004F2605 /* InnovidAdRenderer.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCE126958B93004F2605 /* InnovidAdRenderer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		407CFCE426958B9D004F2605 /* PusherSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCE326958B9D004F2605 /* PusherSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		407CFCE626958BAC004F2605 /* Reachability.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCE526958BAC004F2605 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		407CFCE826958BB6004F2605 /* SDWebImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCE726958BB6004F2605 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		407CFCEA26958BC3004F2605 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCE926958BC3004F2605 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		407CFCEC26958BC9004F2605 /* TruexAdRenderer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCEB26958BC9004F2605 /* TruexAdRenderer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		407CFCEE26958BCE004F2605 /* TVOS360Video.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCED26958BCE004F2605 /* TVOS360Video.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		407CFCA1269587F6004F2605 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				407CFCE226958B93004F2605 /* InnovidAdRenderer.xcframework in CopyFiles */,
+				407CFCE026958B8D004F2605 /* CryptoSwift.framework in CopyFiles */,
+				407CFCE426958B9D004F2605 /* PusherSwift.framework in CopyFiles */,
+				407CFCE626958BAC004F2605 /* Reachability.framework in CopyFiles */,
+				407CFCE826958BB6004F2605 /* SDWebImage.framework in CopyFiles */,
+				407CFCEA26958BC3004F2605 /* Starscream.framework in CopyFiles */,
+				407CFCEC26958BC9004F2605 /* TruexAdRenderer.framework in CopyFiles */,
+				407CFCEE26958BCE004F2605 /* TVOS360Video.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		40240E5F268D0BF000426D49 /* TruexSimpleReferenceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruexSimpleReferenceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +62,23 @@
 		40240E6E268D0BF100426D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40240E70268D0BF100426D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40240E71268D0BF100426D49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		407CFCCF26958B66004F2605 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Libraries/CryptoSwift/CryptoSwift.framework; sourceTree = "<group>"; };
+		407CFCD126958B6B004F2605 /* InnovidAdRenderer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = InnovidAdRenderer.xcframework; path = Libraries/InnovidAdRenderer_xcode12.0.0/InnovidAdRenderer.xcframework; sourceTree = "<group>"; };
+		407CFCD326958B6F004F2605 /* PusherSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PusherSwift.framework; path = Libraries/PusherSwift/PusherSwift.framework; sourceTree = "<group>"; };
+		407CFCD526958B72004F2605 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Libraries/ReachabilitySwift/Reachability.framework; sourceTree = "<group>"; };
+		407CFCD726958B78004F2605 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Libraries/SDWebImage/SDWebImage.framework; sourceTree = "<group>"; };
+		407CFCD926958B7C004F2605 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Libraries/Starscream/Starscream.framework; sourceTree = "<group>"; };
+		407CFCDB26958B80004F2605 /* TruexAdRenderer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TruexAdRenderer.framework; path = Libraries/TruexAdRenderer/TruexAdRenderer.framework; sourceTree = "<group>"; };
+		407CFCDD26958B85004F2605 /* TVOS360Video.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVOS360Video.framework; path = Libraries/TVOS360Video/TVOS360Video.framework; sourceTree = "<group>"; };
+		407CFCDF26958B8D004F2605 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Libraries/CryptoSwift/CryptoSwift.framework; sourceTree = "<group>"; };
+		407CFCE126958B93004F2605 /* InnovidAdRenderer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = InnovidAdRenderer.xcframework; path = Libraries/InnovidAdRenderer_xcode12.0.0/InnovidAdRenderer.xcframework; sourceTree = "<group>"; };
+		407CFCE326958B9D004F2605 /* PusherSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PusherSwift.framework; path = Libraries/PusherSwift/PusherSwift.framework; sourceTree = "<group>"; };
+		407CFCE526958BAC004F2605 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Libraries/ReachabilitySwift/Reachability.framework; sourceTree = "<group>"; };
+		407CFCE726958BB6004F2605 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Libraries/SDWebImage/SDWebImage.framework; sourceTree = "<group>"; };
+		407CFCE926958BC3004F2605 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Libraries/Starscream/Starscream.framework; sourceTree = "<group>"; };
+		407CFCEB26958BC9004F2605 /* TruexAdRenderer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TruexAdRenderer.framework; path = Libraries/TruexAdRenderer/TruexAdRenderer.framework; sourceTree = "<group>"; };
+		407CFCED26958BCE004F2605 /* TVOS360Video.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVOS360Video.framework; path = Libraries/TVOS360Video/TVOS360Video.framework; sourceTree = "<group>"; };
+		40971C72269503C9003CEFB4 /* TruexAdRenderer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TruexAdRenderer.framework; path = "../../../lib/truex/TruexAdRenderer-tvOS-v3.9.9/TruexAdRenderer.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +86,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407CFCD226958B6B004F2605 /* InnovidAdRenderer.xcframework in Frameworks */,
+				407CFCD826958B78004F2605 /* SDWebImage.framework in Frameworks */,
+				407CFCD026958B66004F2605 /* CryptoSwift.framework in Frameworks */,
+				407CFCD426958B6F004F2605 /* PusherSwift.framework in Frameworks */,
+				407CFCD626958B72004F2605 /* Reachability.framework in Frameworks */,
+				407CFCDA26958B7C004F2605 /* Starscream.framework in Frameworks */,
+				407CFCDC26958B80004F2605 /* TruexAdRenderer.framework in Frameworks */,
+				407CFCDE26958B85004F2605 /* TVOS360Video.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +103,17 @@
 		40240E56268D0BF000426D49 = {
 			isa = PBXGroup;
 			children = (
+				407CFCED26958BCE004F2605 /* TVOS360Video.framework */,
+				407CFCEB26958BC9004F2605 /* TruexAdRenderer.framework */,
+				407CFCE926958BC3004F2605 /* Starscream.framework */,
+				407CFCE726958BB6004F2605 /* SDWebImage.framework */,
+				407CFCE526958BAC004F2605 /* Reachability.framework */,
+				407CFCE326958B9D004F2605 /* PusherSwift.framework */,
+				407CFCE126958B93004F2605 /* InnovidAdRenderer.xcframework */,
+				407CFCDF26958B8D004F2605 /* CryptoSwift.framework */,
 				40240E61268D0BF000426D49 /* TruexSimpleReferenceApp */,
 				40240E60268D0BF000426D49 /* Products */,
+				40971C71269503C9003CEFB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +141,22 @@
 			path = TruexSimpleReferenceApp;
 			sourceTree = "<group>";
 		};
+		40971C71269503C9003CEFB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				407CFCDD26958B85004F2605 /* TVOS360Video.framework */,
+				407CFCDB26958B80004F2605 /* TruexAdRenderer.framework */,
+				407CFCD926958B7C004F2605 /* Starscream.framework */,
+				407CFCD726958B78004F2605 /* SDWebImage.framework */,
+				407CFCD526958B72004F2605 /* Reachability.framework */,
+				407CFCD326958B6F004F2605 /* PusherSwift.framework */,
+				407CFCD126958B6B004F2605 /* InnovidAdRenderer.xcframework */,
+				407CFCCF26958B66004F2605 /* CryptoSwift.framework */,
+				40971C72269503C9003CEFB4 /* TruexAdRenderer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,6 +167,7 @@
 				40240E5B268D0BF000426D49 /* Sources */,
 				40240E5C268D0BF000426D49 /* Frameworks */,
 				40240E5D268D0BF000426D49 /* Resources */,
+				407CFCA1269587F6004F2605 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -286,6 +373,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TruexAdRenderer-tvOS",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CryptoSwift",
+					"$(PROJECT_DIR)/PusherSwift",
+					"$(PROJECT_DIR)/ReachabilitySwift",
+					"$(PROJECT_DIR)/SDWebImage",
+					"$(PROJECT_DIR)/Starscream",
+					"$(PROJECT_DIR)/TVOS360Video",
+					"$(PROJECT_DIR)/InnovidAdRenderer_xcode11.4.0",
+					"$(PROJECT_DIR)/Libraries/CryptoSwift",
+					"$(PROJECT_DIR)/Libraries/PusherSwift",
+					"$(PROJECT_DIR)/Libraries/ReachabilitySwift",
+					"$(PROJECT_DIR)/Libraries/SDWebImage",
+					"$(PROJECT_DIR)/Libraries/Starscream",
+					"$(PROJECT_DIR)/Libraries/TruexAdRenderer",
+					"$(PROJECT_DIR)/Libraries/TVOS360Video",
+				);
 				INFOPLIST_FILE = TruexSimpleReferenceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,6 +409,25 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TruexAdRenderer-tvOS",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/CryptoSwift",
+					"$(PROJECT_DIR)/PusherSwift",
+					"$(PROJECT_DIR)/ReachabilitySwift",
+					"$(PROJECT_DIR)/SDWebImage",
+					"$(PROJECT_DIR)/Starscream",
+					"$(PROJECT_DIR)/TVOS360Video",
+					"$(PROJECT_DIR)/InnovidAdRenderer_xcode11.4.0",
+					"$(PROJECT_DIR)/Libraries/CryptoSwift",
+					"$(PROJECT_DIR)/Libraries/PusherSwift",
+					"$(PROJECT_DIR)/Libraries/ReachabilitySwift",
+					"$(PROJECT_DIR)/Libraries/SDWebImage",
+					"$(PROJECT_DIR)/Libraries/Starscream",
+					"$(PROJECT_DIR)/Libraries/TruexAdRenderer",
+					"$(PROJECT_DIR)/Libraries/TVOS360Video",
+				);
 				INFOPLIST_FILE = TruexSimpleReferenceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -1,0 +1,3 @@
+#include "Warnings.xcconfig"
+#include "../Pods/Target Support Files/Pods-TruexAdRendererTests/Pods-TruexAdRendererTests.debug.xcconfig"
+
