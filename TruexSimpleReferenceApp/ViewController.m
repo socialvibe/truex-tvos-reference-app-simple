@@ -8,17 +8,19 @@
 #import "ViewController.h"
 
 @import AVKit;
+@import TruexAdRenderer;
 
 @interface ViewController ()
 
 @property AVPlayer *player;
 @property AVPlayerViewController *playerController;
+@property TruexAdRenderer *adRenderer;
 
 @end
 
 @implementation ViewController
 
-static NSString* const StreamURLString = @"https://ctv.truex.com/assets/reference-app-stream-no-ads-720p.mp4";
+static NSString* const StreamURLString = @"https://ctv.truex.com/assets/reference-app-stream-no-cards-1080p.mp4";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -29,7 +31,26 @@ static NSString* const StreamURLString = @"https://ctv.truex.com/assets/referenc
     self.playerController.player = self.player;
     [self.view addSubview:self.playerController.view];
     self.playerController.view.frame = self.view.frame;
+    
+    [self setAdBreaks:self.player];
+    
     [self.player play];
+}
+
+- (void)setAdBreaks:(AVPlayer *)player {
+    AVPlayerItem *content = player.currentItem;
+    content.interstitialTimeRanges = @[
+        // time: 0:00
+        [[AVInterstitialTimeRange alloc] initWithTimeRange:CMTimeRangeMake(kCMTimeZero, CMTimeMake(90, 1))],
+        // time: 9:52
+        [[AVInterstitialTimeRange alloc] initWithTimeRange:CMTimeRangeMake(CMTimeMake(592, 1), CMTimeMake(90, 1))]
+    ];
+}
+
+- (void)initializeAdRenderer:(NSString *)adSlotType {
+    self.adRenderer = [[TruexAdRenderer alloc] initWithUrl:@"https://media.truex.com/placeholder.js"
+                                              adParameters:@{}
+                                                  slotType:adSlotType];
 }
 
 @end
