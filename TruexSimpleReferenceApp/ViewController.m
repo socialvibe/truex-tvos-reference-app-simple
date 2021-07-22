@@ -22,7 +22,10 @@
 @implementation ViewController
 
 static NSString* const StreamURLString = @"https://ctv.truex.com/assets/reference-app-stream-no-cards-1080p.mp4";
-static int const PrerollAdBreakEndSeconds = 93;
+
+// business logic constants:
+static int const AdBreakEndSeconds = 93;
+static int const MidrollAdBreakDimensionValue = 2;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -36,7 +39,7 @@ static int const PrerollAdBreakEndSeconds = 93;
 
     [self setAdBreaks:self.player];
 
-    self.adRenderer = [self initializeAdRenderer:PREROLL];
+    self.adRenderer = [self initializeAdRenderer:MIDROLL];
 }
 
 - (void)setAdBreaks:(AVPlayer *)player {
@@ -63,12 +66,17 @@ static int const PrerollAdBreakEndSeconds = 93;
     // workaround to always show the ad (simulates a different user each time):
     NSString *userId = [NSUUID UUID].UUIDString;
     
+    // final string should format to (network_user_id parameter will change value each time): qa-get.truex.com/bdfe2ba97e74172a75e325d307db6cfc16f92325/vast/config?asnw=&cpx_url=&dimension_2=2&stream_prosition=midroll&flag=%2Bamcb%2Bemcr%2Bslcb%2Bvicb%2Baeti-exvt&fw_key_values=&metr=0&network_user_id=93DDE21A-6F37-425D-A6E0-671329EE6A01&prof=g_as3_truex&ptgt=a&pvrn=&resp=vmap1&slid=fw_truex&ssnw=&stream_id=136083572&vdur=&vprn=
+    NSString *vastConfigUrl = [NSString stringWithFormat:@"qa-get.truex.com/bdfe2ba97e74172a75e325d307db6cfc16f92325/vast/config?asnw=&cpx_url=&dimension_2=%d&stream_prosition=%@&flag=%%2Bamcb%%2Bemcr%%2Bslcb%%2Bvicb%%2Baeti-exvt&fw_key_values=&metr=0&network_user_id=%@&prof=g_as3_truex&ptgt=a&pvrn=&resp=vmap1&slid=fw_truex&ssnw=&stream_id=136083572&vdur=&vprn=",
+                               MidrollAdBreakDimensionValue,
+                               MIDROLL,
+                               userId];
+    NSLog(@"[TRUEX DEBUG] requesting ad from Vast Config URL: %@", vastConfigUrl);
+    
     // TODO: make this configurable outside the source code
     return @{
           @"placement_hash" : @"bdfe2ba97e74172a75e325d307db6cfc16f92325",
-          @"vast_config_url" : [NSString stringWithFormat:@"qa-get.truex.com/bdfe2ba97e74172a75e325d307db6cfc16f92325/vast/config?asnw=&cpx_url=&%@&fw_key_values=&metr=0&network_user_id=%@&prof=g_as3_truex&ptgt=a&pvrn=&resp=vmap1&slid=fw_truex&ssnw=&stream_id=136083572&vdur=&vprn=",
-                                @"dimension_2=0&flag=%2Bamcb%2Bemcr%2Bslcb%2Bvicb%2Baeti-exvt",
-                                userId],
+          @"vast_config_url" : vastConfigUrl,
           @"user_id" : userId
     };
 }
@@ -79,11 +87,9 @@ static int const PrerollAdBreakEndSeconds = 93;
 }
 
 -(void) onAdFreePod {
-    if ([self.currentAdSlotType isEqualToString:PREROLL]) {
-        CMTime seekTime = CMTimeMakeWithSeconds(PrerollAdBreakEndSeconds, 1000);
-        [self.player seekToTime:seekTime toleranceBefore:kCMTimeZero toleranceAfter:kCMTimeZero];
-    }
-    // TODO: add logic to handle skip linear ads in MIDROLL
+    CMTime seekTime = CMTimeMakeWithSeconds(AdBreakEndSeconds, 1000);
+    [self.player seekToTime:seekTime toleranceBefore:kCMTimeZero toleranceAfter:kCMTimeZero];
+    // TODO: add logic to handle skip linear ads not at start of video
 }
 
 -(void) onAdCompleted:(NSInteger)timeSpent {
