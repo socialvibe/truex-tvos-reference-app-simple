@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document onload="
+        selectOption = function(gender) {
+            TrueTargeting.onAnswer(gender, 'GenderTrueTargetingRequirement');
+        };
+
+        optOut = function() {
+            const DefaultOptOutGender = 'u';
+            TrueTargeting.recordAnswer(DefaultOptOutGender, 'GenderTrueTargetingRequirement');
+            TrueTargeting.optOut();
+        };
+    ">
+    <stackTemplate>
+        <background>
+            <img src="https://media.truex.com/image_assets/2019-06-04/8f24f601-2171-493b-af4e-0bf6c5b51b1d.jpg"/>
+        </background>
+        <txview>
+            <!-- Opt Out Button -->
+            <txbutton id="button_opt_out"
+                      allowTracking="false"
+                      src="https://media.truex.com/image_assets/2019-10-16/474a3db8-d74a-4d7f-9905-3d3b1cf9cb70.png"
+                      hover_src="https://media.truex.com/image_assets/2019-10-16/fd00d3f9-b158-4f3a-a81d-25f060480925.png"
+                      hover_effect="false"
+                      onselect="optOut()"
+                      guide="left"
+                      width="376" height="108"
+                      x="1457" y="55"/>
+                        
+            <!-- Question Responses -->
+            <txbutton id="bucket-female"
+                      allowTracking="false"
+                      hover_effect="false"
+                      src="https://media.truex.com/image_assets/2019-10-16/4f58e518-2747-44a5-be65-11ee325fc505.png"
+                      hover_src="https://media.truex.com/image_assets/2019-10-16/cac32d4c-c707-4973-92ed-254ed0c8d176.png"
+                      onselect="selectOption('f')"
+                      width="515" height="469"
+                      x="471" y="418"/>
+
+            <txbutton id="bucket-male"
+                      allowTracking="false" 
+                      hover_effect="false"
+                      src="https://media.truex.com/image_assets/2019-10-16/bc35dcc3-d414-4ca7-b5be-1b18d4c266aa.png"
+                      hover_src="https://media.truex.com/image_assets/2019-10-16/25ea2c43-a064-4baf-81e5-170296d4b5e5.png"
+                      onselect="selectOption('m')"
+                      guide="right"
+                      width="515" height="469"
+                      x="935" y="418"/>
+
+            <!-- Gender Question Prompt -->
+            <tximage id="custom_prompt"
+                     src="https://media.truex.com/image_assets/2019-10-16/f591405b-4b73-4cd4-8521-63055ae7172d.png"
+                     width="1920" height="1080"
+                     x="0" y="0"/>
+        </txview>
+    </stackTemplate>
+</document>
