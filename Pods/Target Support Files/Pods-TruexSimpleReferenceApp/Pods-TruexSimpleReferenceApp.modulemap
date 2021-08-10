@@ -1,0 +1,6 @@
+framework module Pods_TruexSimpleReferenceApp {
+  umbrella header "Pods-TruexSimpleReferenceApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

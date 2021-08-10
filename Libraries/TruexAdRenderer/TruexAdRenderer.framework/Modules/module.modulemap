@@ -1,6 +1,0 @@
-framework module TruexAdRenderer {
-  umbrella header "TruexAdRenderer.h"
-
-  export *
-  module * { export * }
-}

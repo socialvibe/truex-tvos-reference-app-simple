@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,22 +13,8 @@
 		40240E6C268D0BF100426D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40240E6B268D0BF100426D49 /* Assets.xcassets */; };
 		40240E6F268D0BF100426D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40240E6D268D0BF100426D49 /* LaunchScreen.storyboard */; };
 		40240E72268D0BF100426D49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40240E71268D0BF100426D49 /* main.m */; };
-		4045948526AB973A00AAFA84 /* TVOS360Video.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCED26958BCE004F2605 /* TVOS360Video.framework */; };
-		4045948626AB973A00AAFA84 /* TVOS360Video.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCED26958BCE004F2605 /* TVOS360Video.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4045948726AB973A00AAFA84 /* TruexAdRenderer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCEB26958BC9004F2605 /* TruexAdRenderer.framework */; };
-		4045948826AB973A00AAFA84 /* TruexAdRenderer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCEB26958BC9004F2605 /* TruexAdRenderer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4045948926AB973B00AAFA84 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCE926958BC3004F2605 /* Starscream.framework */; };
-		4045948A26AB973B00AAFA84 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCE926958BC3004F2605 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4045948B26AB973B00AAFA84 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCE726958BB6004F2605 /* SDWebImage.framework */; };
-		4045948C26AB973B00AAFA84 /* SDWebImage.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCE726958BB6004F2605 /* SDWebImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4045948D26AB973B00AAFA84 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCE526958BAC004F2605 /* Reachability.framework */; };
-		4045948E26AB973B00AAFA84 /* Reachability.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCE526958BAC004F2605 /* Reachability.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4045948F26AB973B00AAFA84 /* PusherSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCE326958B9D004F2605 /* PusherSwift.framework */; };
-		4045949026AB973B00AAFA84 /* PusherSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCE326958B9D004F2605 /* PusherSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4045949126AB973E00AAFA84 /* CryptoSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCDF26958B8D004F2605 /* CryptoSwift.framework */; };
-		4045949226AB973E00AAFA84 /* CryptoSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCDF26958B8D004F2605 /* CryptoSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4045949626AB981400AAFA84 /* InnovidAdRenderer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4045949526AB981400AAFA84 /* InnovidAdRenderer.framework */; };
-		4045949726AB981400AAFA84 /* InnovidAdRenderer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4045949526AB981400AAFA84 /* InnovidAdRenderer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		62F52D316EDF5FD2F2712A07 /* Pods_TruexSimpleReferenceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D0C33BDAF2B4EC87C12C8B /* Pods_TruexSimpleReferenceApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,21 +23,13 @@
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
-			files = (
-				4045948C26AB973B00AAFA84 /* SDWebImage.framework in CopyFiles */,
-				4045948E26AB973B00AAFA84 /* Reachability.framework in CopyFiles */,
-				4045949726AB981400AAFA84 /* InnovidAdRenderer.framework in CopyFiles */,
-				4045948626AB973A00AAFA84 /* TVOS360Video.framework in CopyFiles */,
-				4045948A26AB973B00AAFA84 /* Starscream.framework in CopyFiles */,
-				4045949026AB973B00AAFA84 /* PusherSwift.framework in CopyFiles */,
-				4045948826AB973A00AAFA84 /* TruexAdRenderer.framework in CopyFiles */,
-				4045949226AB973E00AAFA84 /* CryptoSwift.framework in CopyFiles */,
-			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01A940C706CB7426457B2E44 /* Pods-TruexSimpleReferenceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruexSimpleReferenceApp.release.xcconfig"; path = "Target Support Files/Pods-TruexSimpleReferenceApp/Pods-TruexSimpleReferenceApp.release.xcconfig"; sourceTree = "<group>"; };
+		22D0C33BDAF2B4EC87C12C8B /* Pods_TruexSimpleReferenceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruexSimpleReferenceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40240E5F268D0BF000426D49 /* TruexSimpleReferenceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruexSimpleReferenceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40240E62268D0BF000426D49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		40240E63268D0BF000426D49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -62,31 +40,8 @@
 		40240E6E268D0BF100426D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40240E70268D0BF100426D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40240E71268D0BF100426D49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4045948226AB962700AAFA84 /* CryptoSwift */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = CryptoSwift; path = Libraries/CryptoSwift/CryptoSwift.framework/CryptoSwift; sourceTree = "<group>"; };
-		4045949526AB981400AAFA84 /* InnovidAdRenderer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InnovidAdRenderer.framework; path = "Libraries/InnovidAdRenderer.framework-1.5.34-xcode11.4.0/InnovidAdRenderer.framework"; sourceTree = "<group>"; };
-		407CFCCF26958B66004F2605 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Libraries/CryptoSwift/CryptoSwift.framework; sourceTree = "<group>"; };
-		407CFCD126958B6B004F2605 /* InnovidAdRenderer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = InnovidAdRenderer.xcframework; path = Libraries/InnovidAdRenderer_xcode12.0.0/InnovidAdRenderer.xcframework; sourceTree = "<group>"; };
-		407CFCD326958B6F004F2605 /* PusherSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PusherSwift.framework; path = Libraries/PusherSwift/PusherSwift.framework; sourceTree = "<group>"; };
-		407CFCD526958B72004F2605 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Libraries/ReachabilitySwift/Reachability.framework; sourceTree = "<group>"; };
-		407CFCD726958B78004F2605 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Libraries/SDWebImage/SDWebImage.framework; sourceTree = "<group>"; };
-		407CFCD926958B7C004F2605 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Libraries/Starscream/Starscream.framework; sourceTree = "<group>"; };
-		407CFCDB26958B80004F2605 /* TruexAdRenderer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TruexAdRenderer.framework; path = Libraries/TruexAdRenderer/TruexAdRenderer.framework; sourceTree = "<group>"; };
-		407CFCDD26958B85004F2605 /* TVOS360Video.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVOS360Video.framework; path = Libraries/TVOS360Video/TVOS360Video.framework; sourceTree = "<group>"; };
-		407CFCDF26958B8D004F2605 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Libraries/CryptoSwift/CryptoSwift.framework; sourceTree = "<group>"; };
-		407CFCE326958B9D004F2605 /* PusherSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PusherSwift.framework; path = Libraries/PusherSwift/PusherSwift.framework; sourceTree = "<group>"; };
-		407CFCE526958BAC004F2605 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Libraries/ReachabilitySwift/Reachability.framework; sourceTree = "<group>"; };
-		407CFCE726958BB6004F2605 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = Libraries/SDWebImage/SDWebImage.framework; sourceTree = "<group>"; };
-		407CFCE926958BC3004F2605 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Libraries/Starscream/Starscream.framework; sourceTree = "<group>"; };
-		407CFCEB26958BC9004F2605 /* TruexAdRenderer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TruexAdRenderer.framework; path = Libraries/TruexAdRenderer/TruexAdRenderer.framework; sourceTree = "<group>"; };
-		407CFCED26958BCE004F2605 /* TVOS360Video.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVOS360Video.framework; path = Libraries/TVOS360Video/TVOS360Video.framework; sourceTree = "<group>"; };
-		4095048D26AB837E00BFD57D /* CryptoSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CryptoSwift.xcframework; path = Libraries/CryptoSwift/CryptoSwift.xcframework; sourceTree = "<group>"; };
-		4095049026AB838200BFD57D /* PusherSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PusherSwift.xcframework; path = Libraries/PusherSwift/PusherSwift.xcframework; sourceTree = "<group>"; };
-		4095049326AB838700BFD57D /* Reachability.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Reachability.xcframework; path = Libraries/ReachabilitySwift/Reachability.xcframework; sourceTree = "<group>"; };
-		4095049626AB838B00BFD57D /* SDWebImage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDWebImage.xcframework; path = Libraries/SDWebImage/SDWebImage.xcframework; sourceTree = "<group>"; };
-		4095049926AB838F00BFD57D /* Starscream.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Starscream.xcframework; path = Libraries/Starscream/Starscream.xcframework; sourceTree = "<group>"; };
-		4095049C26AB839300BFD57D /* TruexAdRenderer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TruexAdRenderer.xcframework; path = Libraries/TruexAdRenderer/TruexAdRenderer.xcframework; sourceTree = "<group>"; };
-		4095049F26AB839600BFD57D /* TVOS360Video.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TVOS360Video.xcframework; path = Libraries/TVOS360Video/TVOS360Video.xcframework; sourceTree = "<group>"; };
 		40971C72269503C9003CEFB4 /* TruexAdRenderer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TruexAdRenderer.framework; path = "../../../lib/truex/TruexAdRenderer-tvOS-v3.9.9/TruexAdRenderer.framework"; sourceTree = "<group>"; };
+		B070A40D37E4B3845DD5EE82 /* Pods-TruexSimpleReferenceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruexSimpleReferenceApp.debug.xcconfig"; path = "Target Support Files/Pods-TruexSimpleReferenceApp/Pods-TruexSimpleReferenceApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,14 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4045948B26AB973B00AAFA84 /* SDWebImage.framework in Frameworks */,
-				4045948D26AB973B00AAFA84 /* Reachability.framework in Frameworks */,
-				4045949626AB981400AAFA84 /* InnovidAdRenderer.framework in Frameworks */,
-				4045948526AB973A00AAFA84 /* TVOS360Video.framework in Frameworks */,
-				4045948926AB973B00AAFA84 /* Starscream.framework in Frameworks */,
-				4045948F26AB973B00AAFA84 /* PusherSwift.framework in Frameworks */,
-				4045948726AB973A00AAFA84 /* TruexAdRenderer.framework in Frameworks */,
-				4045949126AB973E00AAFA84 /* CryptoSwift.framework in Frameworks */,
+				62F52D316EDF5FD2F2712A07 /* Pods_TruexSimpleReferenceApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,16 +59,10 @@
 		40240E56268D0BF000426D49 = {
 			isa = PBXGroup;
 			children = (
-				407CFCED26958BCE004F2605 /* TVOS360Video.framework */,
-				407CFCEB26958BC9004F2605 /* TruexAdRenderer.framework */,
-				407CFCE926958BC3004F2605 /* Starscream.framework */,
-				407CFCE726958BB6004F2605 /* SDWebImage.framework */,
-				407CFCE526958BAC004F2605 /* Reachability.framework */,
-				407CFCE326958B9D004F2605 /* PusherSwift.framework */,
-				407CFCDF26958B8D004F2605 /* CryptoSwift.framework */,
 				40240E61268D0BF000426D49 /* TruexSimpleReferenceApp */,
 				40240E60268D0BF000426D49 /* Products */,
 				40971C71269503C9003CEFB4 /* Frameworks */,
+				9637D55EA0654069F030AFE9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,26 +93,18 @@
 		40971C71269503C9003CEFB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4045949526AB981400AAFA84 /* InnovidAdRenderer.framework */,
-				4045948226AB962700AAFA84 /* CryptoSwift */,
-				4095049F26AB839600BFD57D /* TVOS360Video.xcframework */,
-				4095049C26AB839300BFD57D /* TruexAdRenderer.xcframework */,
-				4095049926AB838F00BFD57D /* Starscream.xcframework */,
-				4095049626AB838B00BFD57D /* SDWebImage.xcframework */,
-				4095049326AB838700BFD57D /* Reachability.xcframework */,
-				4095049026AB838200BFD57D /* PusherSwift.xcframework */,
-				4095048D26AB837E00BFD57D /* CryptoSwift.xcframework */,
-				407CFCDD26958B85004F2605 /* TVOS360Video.framework */,
-				407CFCDB26958B80004F2605 /* TruexAdRenderer.framework */,
-				407CFCD926958B7C004F2605 /* Starscream.framework */,
-				407CFCD726958B78004F2605 /* SDWebImage.framework */,
-				407CFCD526958B72004F2605 /* Reachability.framework */,
-				407CFCD326958B6F004F2605 /* PusherSwift.framework */,
-				407CFCD126958B6B004F2605 /* InnovidAdRenderer.xcframework */,
-				407CFCCF26958B66004F2605 /* CryptoSwift.framework */,
-				40971C72269503C9003CEFB4 /* TruexAdRenderer.framework */,
+				22D0C33BDAF2B4EC87C12C8B /* Pods_TruexSimpleReferenceApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9637D55EA0654069F030AFE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B070A40D37E4B3845DD5EE82 /* Pods-TruexSimpleReferenceApp.debug.xcconfig */,
+				01A940C706CB7426457B2E44 /* Pods-TruexSimpleReferenceApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,10 +114,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 40240E75268D0BF100426D49 /* Build configuration list for PBXNativeTarget "TruexSimpleReferenceApp" */;
 			buildPhases = (
+				46E5F4202CEF5B2D1527D26D /* [CP] Check Pods Manifest.lock */,
 				40240E5B268D0BF000426D49 /* Sources */,
 				40240E5C268D0BF000426D49 /* Frameworks */,
 				40240E5D268D0BF000426D49 /* Resources */,
 				407CFCA1269587F6004F2605 /* CopyFiles */,
+				A0CA31C179CBEDFAFC94B15E /* [CP] Embed Pods Frameworks */,
+				CDF75144672D5DE34E624927 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +175,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46E5F4202CEF5B2D1527D26D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruexSimpleReferenceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0CA31C179CBEDFAFC94B15E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruexSimpleReferenceApp/Pods-TruexSimpleReferenceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruexSimpleReferenceApp/Pods-TruexSimpleReferenceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruexSimpleReferenceApp/Pods-TruexSimpleReferenceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDF75144672D5DE34E624927 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruexSimpleReferenceApp/Pods-TruexSimpleReferenceApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruexSimpleReferenceApp/Pods-TruexSimpleReferenceApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruexSimpleReferenceApp/Pods-TruexSimpleReferenceApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		40240E5B268D0BF000426D49 /* Sources */ = {
@@ -386,6 +382,7 @@
 		};
 		40240E76268D0BF100426D49 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B070A40D37E4B3845DD5EE82 /* Pods-TruexSimpleReferenceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -402,32 +399,26 @@
 					"$(PROJECT_DIR)/Starscream",
 					"$(PROJECT_DIR)/TVOS360Video",
 					"$(PROJECT_DIR)/InnovidAdRenderer_xcode11.4.0",
-					"$(PROJECT_DIR)/Libraries/CryptoSwift",
-					"$(PROJECT_DIR)/Libraries/PusherSwift",
-					"$(PROJECT_DIR)/Libraries/ReachabilitySwift",
-					"$(PROJECT_DIR)/Libraries/SDWebImage",
-					"$(PROJECT_DIR)/Libraries/Starscream",
-					"$(PROJECT_DIR)/Libraries/TruexAdRenderer",
-					"$(PROJECT_DIR)/Libraries/TVOS360Video",
-					"$(PROJECT_DIR)/Libraries/InnovidAdRenderer.framework-1.5.34-xcode11.4.0",
 				);
 				INFOPLIST_FILE = TruexSimpleReferenceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LEGACY_BUILD_SYSTEM_ENABLED = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries/CryptoSwift/CryptoSwift.framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.truex.tvos.simplereferenceapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Debug;
 		};
 		40240E77268D0BF100426D49 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01A940C706CB7426457B2E44 /* Pods-TruexSimpleReferenceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,27 +434,20 @@
 					"$(PROJECT_DIR)/SDWebImage",
 					"$(PROJECT_DIR)/Starscream",
 					"$(PROJECT_DIR)/TVOS360Video",
-					"$(PROJECT_DIR)/InnovidAdRenderer_xcode11.4.0",
-					"$(PROJECT_DIR)/Libraries/CryptoSwift",
-					"$(PROJECT_DIR)/Libraries/PusherSwift",
-					"$(PROJECT_DIR)/Libraries/ReachabilitySwift",
-					"$(PROJECT_DIR)/Libraries/SDWebImage",
-					"$(PROJECT_DIR)/Libraries/Starscream",
-					"$(PROJECT_DIR)/Libraries/TruexAdRenderer",
-					"$(PROJECT_DIR)/Libraries/TVOS360Video",
-					"$(PROJECT_DIR)/Libraries/InnovidAdRenderer.framework-1.5.34-xcode11.4.0",
+					"$(PROJECT_DIR)/InnovidAdRenderer_xcode11.4.0"
 				);
 				INFOPLIST_FILE = TruexSimpleReferenceApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LEGACY_BUILD_SYSTEM_ENABLED = YES;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/Libraries/CryptoSwift/CryptoSwift.framework",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.truex.tvos.simplereferenceapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 			};
 			name = Release;

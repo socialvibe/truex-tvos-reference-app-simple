@@ -1,0 +1,11 @@
+${PODS_ROOT}/Target Support Files/Pods-TruexSimpleReferenceApp/Pods-TruexSimpleReferenceApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework
+${PODS_ROOT}/InnovidAdRenderer_xcode11.4.0/InnovidAdRenderer.framework
+${PODS_ROOT}/InnovidAdRenderer_xcode11.4.0/InnovidAdRenderer.framework.dSYM
+${BUILT_PRODUCTS_DIR}/PusherSwift/PusherSwift.framework
+${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework
+${BUILT_PRODUCTS_DIR}/TVOS360Video/TVOS360Video.framework
+${PODS_ROOT}/TruexAdRendererLocalBuild/TruexAdRenderer-tvOS-v3.9.10/TruexAdRenderer.framework
+${PODS_ROOT}/TruexAdRendererLocalBuild/TruexAdRenderer-tvOS-v3.9.10/TruexAdRenderer.framework.dSYM
