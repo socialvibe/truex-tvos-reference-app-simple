@@ -29,6 +29,7 @@
 		4095049E26AB839300BFD57D /* TruexAdRenderer.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4095049C26AB839300BFD57D /* TruexAdRenderer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		409504A026AB839600BFD57D /* TVOS360Video.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4095049F26AB839600BFD57D /* TVOS360Video.xcframework */; };
 		409504A126AB839600BFD57D /* TVOS360Video.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4095049F26AB839600BFD57D /* TVOS360Video.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		409AD88B27FF6D3A003F8E55 /* Truex.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 409AD88A27FF6D3A003F8E55 /* Truex.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -86,6 +87,7 @@
 		4095049C26AB839300BFD57D /* TruexAdRenderer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TruexAdRenderer.xcframework; path = Libraries/TruexAdRenderer/TruexAdRenderer.xcframework; sourceTree = "<group>"; };
 		4095049F26AB839600BFD57D /* TVOS360Video.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TVOS360Video.xcframework; path = Libraries/TVOS360Video/TVOS360Video.xcframework; sourceTree = "<group>"; };
 		40971C72269503C9003CEFB4 /* TruexAdRenderer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TruexAdRenderer.framework; path = "../../../lib/truex/TruexAdRenderer-tvOS-v3.9.9/TruexAdRenderer.framework"; sourceTree = "<group>"; };
+		409AD88A27FF6D3A003F8E55 /* Truex.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Truex.bundle; path = Libraries/TruexAdRenderer/TruexAdRenderer.xcframework/Truex.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		40971C71269503C9003CEFB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				409AD88A27FF6D3A003F8E55 /* Truex.bundle */,
 				4095049F26AB839600BFD57D /* TVOS360Video.xcframework */,
 				4095049C26AB839300BFD57D /* TruexAdRenderer.xcframework */,
 				4095049926AB838F00BFD57D /* Starscream.xcframework */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				409AD88B27FF6D3A003F8E55 /* Truex.bundle in Resources */,
 				40240E6F268D0BF100426D49 /* LaunchScreen.storyboard in Resources */,
 				40240E6C268D0BF100426D49 /* Assets.xcassets in Resources */,
 				40240E6A268D0BF000426D49 /* Main.storyboard in Resources */,
