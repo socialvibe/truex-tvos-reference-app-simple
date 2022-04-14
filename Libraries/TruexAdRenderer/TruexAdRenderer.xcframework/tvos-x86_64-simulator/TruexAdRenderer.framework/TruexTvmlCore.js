@@ -5,6 +5,25 @@
 //  Copyright © 2018 true[X]. All rights reserved.
 //
 
+// Backfill for unit test
+if (typeof module !== 'undefined'){
+    if (typeof App === 'undefined') { 
+        App = {};
+    }
+    if (typeof host === 'undefined') {
+        host = {
+            debugLog: console.log,
+            isChoiceCard: function(){ return false; },
+            trackEventWithNameEventValue: function(eventName, eventValue){
+                console.log("trackEventWithNameEventValue: eventName= " + eventName + ", eventValue: " + eventValue);
+            },
+            emitVideoEventWithValue: function(event){ 
+                console.log("emitVideoEventWithValue: type= " + event.type);
+            }
+        };
+    }
+}
+
 // MARK: - App Event Handlers
 
 App.onLaunch = function(options) {
@@ -82,6 +101,7 @@ App.onSuspend = function(options) {
 var videoPlayerManager;
 var VideoPlayerManager = function() {
     this.videoPlayers = {};
+    this.videoHistory = new Set([]);
     this.videoPlayerManagerPausedPlayers = {};
     this.getAllPlayers = function() {
         return this.videoPlayers;
@@ -200,6 +220,27 @@ var VideoPlayerManager = function() {
             videoPlayer.resetAction();
         }
     };
+    this.setVideoDidPlayed = function(videoUrl) {
+        if (this.videoHistory && videoUrl){
+            if (!this.videoHistory.has(videoUrl)) {
+                this.videoHistory.add(videoUrl);
+            }
+            let videoKeys = Object.keys(this.videoPlayers);
+            for (var i=0; i < videoKeys.length; i++) {
+                let videoKey = videoKeys[i];
+                let src = this.videoPlayers[videoKey].getVideoSrc();
+                if (src == videoUrl) {
+                    this.videoPlayers[videoKey].didReplay = true;
+                }
+            }
+        }
+    };
+    this.getVideoDidPlayed = function(videoUrl) {
+        if (this.videoHistory && videoUrl){
+            return this.videoHistory.has(videoUrl);
+        }
+        return false;
+    };
 };
 
 // this object keep track of a <txvideo>
@@ -207,7 +248,8 @@ var nativeVideoPlayerAdapter = function(element){
     this.videoElement = element;
     this.truexVideoPlayerType = "native";
     this.playbackState = "playing";
-    this.didReplay = false;
+    let videoUrl = element.attributes.getNamedItem("src") ? element.attributes.getNamedItem("src").value : null;
+    this.didReplay = videoPlayerManager.getVideoDidPlayed(videoUrl);
 
     this.play = function() {
         this.playbackState = "playing";
@@ -231,6 +273,11 @@ var nativeVideoPlayerAdapter = function(element){
     this.setVideoSrc = function(videoUrl) {
         this.playbackState = "playing";
         this.videoElement.setAttribute('src', videoUrl);
+        this.didReplay = videoPlayerManager.getVideoDidPlayed(videoUrl);
+    };
+
+    this.getVideoSrc = function() {
+        return this.videoElement.getAttribute('src');
     };
 
     this.resetAction = function() {
@@ -1499,6 +1546,8 @@ function setupTXVideos(document) {
                     name : videoName,
                     url : videoUrl
                 });
+                                            
+                videoPlayerManager.setVideoDidPlayed(videoUrl);
 
                 videoPlayerManager.videoEnded(txVideoElementId);
             });
@@ -1547,11 +1596,13 @@ function setupTXVideos(document) {
 
                 evt.target.setAttribute('loopCount', loopCount);
 
-                nativeVideoPlayerAdapter.didReplay = true;
+                let videoUrl = evt.target.attributes.getNamedItem('src').value;
+                videoPlayerManager.setVideoDidPlayed(videoUrl);
             });
 
-            txVideoElement.addEventListener('videoReplay', (ignored) => {
-                nativeVideoPlayerAdapter.didReplay = true;
+            txVideoElement.addEventListener('videoReplay', (evt) => {
+                let videoUrl = evt.target.attributes.getNamedItem('src').value;
+                videoPlayerManager.setVideoDidPlayed(videoUrl);
             });
 
             if (txVideoElement.getAttribute('clickToFullscreen') == "true") {
@@ -1858,4 +1909,15 @@ var FIPrimeInsightsSetup = function () {
     initial_video.addEventListener('updateProgress', function(event) {
                                    host.updateFiVideoProgressForTrackingWithDurationCurrentTimeProgress(event.duration, event.currentTime, event.progress);
                                    });
+}
+
+// For unit testing purposes:
+if (typeof module !== 'undefined') {
+    module.exports = {
+        getVideoPlayerManager: () => {
+            return videoPlayerManager;
+        },
+        setupTXVideos: setupTXVideos,
+        App: App
+    };
 }

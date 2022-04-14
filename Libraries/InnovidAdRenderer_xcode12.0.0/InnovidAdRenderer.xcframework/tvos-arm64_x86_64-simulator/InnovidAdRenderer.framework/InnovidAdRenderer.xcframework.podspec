@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "InnovidAdRenderer_xcodeXCODE_VERSION"
-  s.version          = '1.5.34'
+  s.version          = '1.6.0'
   s.summary          = 'Innovid Ad Renderer TvOS xcframework'
   s.module_name      = "InnovidAdRenderer"
   s.swift_version    = '4.2'
@@ -13,7 +13,7 @@ TODO: Add long description of the pod here.
   s.license       = 'Copyright © 2020 Innovid. All rights reserved.'
   s.authors       = { 'jake' => 'lavenj@gmail.com', 'Victor Sima' => 'vic.sima@gmail.com'}
 
-  s.tvos.deployment_target = '13.0'
+  s.tvos.deployment_target = '10.0'
   
   s.frameworks = 'UIKit', 'AVKit'
   

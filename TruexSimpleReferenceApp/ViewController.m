@@ -53,7 +53,7 @@ static int const MidrollAdBreakDimensionValue = 2;
 }
 
 - (TruexAdRenderer*)initializeAdRenderer:(NSString *)adSlotType {
-    TruexAdRenderer *renderer = [[TruexAdRenderer alloc] initWithUrl:@""
+    TruexAdRenderer *renderer = [[TruexAdRenderer alloc] initWithUrl:@"https://media.truex.com/placeholder.js"
                                                         adParameters:[self getFakeAdParams]
                                                             slotType:adSlotType];
     self.currentAdSlotType = adSlotType;
@@ -71,7 +71,8 @@ static int const MidrollAdBreakDimensionValue = 2;
                                MidrollAdBreakDimensionValue,
                                MIDROLL,
                                userId];
-    NSLog(@"[TRUEX DEBUG] requesting ad from Vast Config URL: %@", vastConfigUrl);
+//    NSString *vastConfigUrl = @"qa-get.truex.com/bdfe2ba97e74172a75e325d307db6cfc16f92325/vast/config?asnw=&cpx_url=&dimension_2=2&stream_prosition=midroll&flag=%2Bamcb%2Bemcr%2Bslcb%2Bvicb%2Baeti-exvt&fw_key_values=&metr=0&prof=g_as3_truex&ptgt=a&pvrn=&resp=vmap1&slid=fw_truex&ssnw=&stream_id=136083572&vdur=&vprn=";
+//    NSLog(@"[TRUEX DEBUG] requesting ad from Vast Config URL: %@", vastConfigUrl);
     
     // TODO: make this configurable outside the source code
     return @{

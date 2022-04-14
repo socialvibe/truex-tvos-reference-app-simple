@@ -20,10 +20,11 @@
 @property (strong, nonatomic) NSString* _Nonnull fiVideoCurrentTime;
 @property (strong, nonatomic) NSString* _Nonnull fiVideoProgress;
 
-- (_Nullable id)initWithUrlSession:(NSURLSession* _Nonnull)urlSession serviceUrl:(NSString* _Nonnull)serviceUrl serviceParams:(NSString* _Nonnull)serviceParams choiceCardSessionId:(NSString* _Nonnull)choiceCardSessionId experimentationManager:(TruexExperimentationManager* _Nullable)experimentationManager userId:(NSString* _Nullable)userId;
+- (_Nullable id)initWithUrlSession:(NSURLSession* _Nonnull)urlSession serviceUrl:(NSString* _Nonnull)serviceUrl serviceParams:(NSString* _Nonnull)serviceParams choiceCardSessionId:(NSString* _Nonnull)choiceCardSessionId experimentationManager:(TruexExperimentationManager* _Nullable)experimentationManager userId:(NSString* _Nullable)userId options:(NSDictionary* _Nonnull)options;
 - (TruexTrackingConfiguration* _Nonnull)getConfiguration;
 // Separate setter because ad vars may not be available at init
 - (void)setAdVarsConfig:(NSDictionary* _Nonnull)adVars;
+- (void)setTrueAttentionTime:(NSNumber* _Nonnull)sec;
 
 - (void)reset;
 
@@ -92,6 +93,12 @@
 - (void)trackTrueAttentionTimeRequirementMetIncludingPausedTime:(NSString* _Nonnull)timing;
 - (void)trackTrueAttentionInteractionRequirementMet:(NSString* _Nonnull)timing;
 - (void)trackTrueAttentionInteractionRequirementMetIncludingPausedTime:(NSString* _Nonnull)timing;
+
+- (void)trackEngagementQuartileStarted;
+- (void)trackEngagementFirstQuartile;
+- (void)trackEngagementSecondQuartile;
+- (void)trackEngagementThirdQuartile;
+- (void)trackEngagementQuartileCompleted;
 
 - (void)trackOverlayPlayerLoaded;
 - (void)trackOverlayAutoAdvanced;

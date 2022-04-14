@@ -15,8 +15,6 @@
 		40240E72268D0BF100426D49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40240E71268D0BF100426D49 /* main.m */; };
 		407CFCD226958B6B004F2605 /* InnovidAdRenderer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407CFCD126958B6B004F2605 /* InnovidAdRenderer.xcframework */; };
 		407CFCE226958B93004F2605 /* InnovidAdRenderer.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 407CFCE126958B93004F2605 /* InnovidAdRenderer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		4095048E26AB837E00BFD57D /* CryptoSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4095048D26AB837E00BFD57D /* CryptoSwift.xcframework */; };
-		4095048F26AB837E00BFD57D /* CryptoSwift.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4095048D26AB837E00BFD57D /* CryptoSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4095049126AB838200BFD57D /* PusherSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4095049026AB838200BFD57D /* PusherSwift.xcframework */; };
 		4095049226AB838200BFD57D /* PusherSwift.xcframework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4095049026AB838200BFD57D /* PusherSwift.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		4095049426AB838700BFD57D /* Reachability.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4095049326AB838700BFD57D /* Reachability.xcframework */; };
@@ -43,7 +41,6 @@
 				4095049226AB838200BFD57D /* PusherSwift.xcframework in CopyFiles */,
 				4095049826AB838B00BFD57D /* SDWebImage.xcframework in CopyFiles */,
 				409504A126AB839600BFD57D /* TVOS360Video.xcframework in CopyFiles */,
-				4095048F26AB837E00BFD57D /* CryptoSwift.xcframework in CopyFiles */,
 				4095049E26AB839300BFD57D /* TruexAdRenderer.xcframework in CopyFiles */,
 				4095049B26AB838F00BFD57D /* Starscream.xcframework in CopyFiles */,
 				407CFCE226958B93004F2605 /* InnovidAdRenderer.xcframework in CopyFiles */,
@@ -71,7 +68,6 @@
 		407CFCD926958B7C004F2605 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Libraries/Starscream/Starscream.framework; sourceTree = "<group>"; };
 		407CFCDB26958B80004F2605 /* TruexAdRenderer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TruexAdRenderer.framework; path = Libraries/TruexAdRenderer/TruexAdRenderer.framework; sourceTree = "<group>"; };
 		407CFCDD26958B85004F2605 /* TVOS360Video.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVOS360Video.framework; path = Libraries/TVOS360Video/TVOS360Video.framework; sourceTree = "<group>"; };
-		407CFCDF26958B8D004F2605 /* CryptoSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CryptoSwift.framework; path = Libraries/CryptoSwift/CryptoSwift.framework; sourceTree = "<group>"; };
 		407CFCE126958B93004F2605 /* InnovidAdRenderer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = InnovidAdRenderer.xcframework; path = Libraries/InnovidAdRenderer_xcode12.0.0/InnovidAdRenderer.xcframework; sourceTree = "<group>"; };
 		407CFCE326958B9D004F2605 /* PusherSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PusherSwift.framework; path = Libraries/PusherSwift/PusherSwift.framework; sourceTree = "<group>"; };
 		407CFCE526958BAC004F2605 /* Reachability.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Reachability.framework; path = Libraries/ReachabilitySwift/Reachability.framework; sourceTree = "<group>"; };
@@ -79,7 +75,6 @@
 		407CFCE926958BC3004F2605 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Libraries/Starscream/Starscream.framework; sourceTree = "<group>"; };
 		407CFCEB26958BC9004F2605 /* TruexAdRenderer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TruexAdRenderer.framework; path = Libraries/TruexAdRenderer/TruexAdRenderer.framework; sourceTree = "<group>"; };
 		407CFCED26958BCE004F2605 /* TVOS360Video.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVOS360Video.framework; path = Libraries/TVOS360Video/TVOS360Video.framework; sourceTree = "<group>"; };
-		4095048D26AB837E00BFD57D /* CryptoSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = CryptoSwift.xcframework; path = Libraries/CryptoSwift/CryptoSwift.xcframework; sourceTree = "<group>"; };
 		4095049026AB838200BFD57D /* PusherSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PusherSwift.xcframework; path = Libraries/PusherSwift/PusherSwift.xcframework; sourceTree = "<group>"; };
 		4095049326AB838700BFD57D /* Reachability.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Reachability.xcframework; path = Libraries/ReachabilitySwift/Reachability.xcframework; sourceTree = "<group>"; };
 		4095049626AB838B00BFD57D /* SDWebImage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDWebImage.xcframework; path = Libraries/SDWebImage/SDWebImage.xcframework; sourceTree = "<group>"; };
@@ -99,7 +94,6 @@
 				4095049126AB838200BFD57D /* PusherSwift.xcframework in Frameworks */,
 				4095049726AB838B00BFD57D /* SDWebImage.xcframework in Frameworks */,
 				409504A026AB839600BFD57D /* TVOS360Video.xcframework in Frameworks */,
-				4095048E26AB837E00BFD57D /* CryptoSwift.xcframework in Frameworks */,
 				4095049D26AB839300BFD57D /* TruexAdRenderer.xcframework in Frameworks */,
 				4095049A26AB838F00BFD57D /* Starscream.xcframework in Frameworks */,
 				407CFCD226958B6B004F2605 /* InnovidAdRenderer.xcframework in Frameworks */,
@@ -119,7 +113,6 @@
 				407CFCE526958BAC004F2605 /* Reachability.framework */,
 				407CFCE326958B9D004F2605 /* PusherSwift.framework */,
 				407CFCE126958B93004F2605 /* InnovidAdRenderer.xcframework */,
-				407CFCDF26958B8D004F2605 /* CryptoSwift.framework */,
 				40240E61268D0BF000426D49 /* TruexSimpleReferenceApp */,
 				40240E60268D0BF000426D49 /* Products */,
 				40971C71269503C9003CEFB4 /* Frameworks */,
@@ -160,7 +153,6 @@
 				4095049626AB838B00BFD57D /* SDWebImage.xcframework */,
 				4095049326AB838700BFD57D /* Reachability.xcframework */,
 				4095049026AB838200BFD57D /* PusherSwift.xcframework */,
-				4095048D26AB837E00BFD57D /* CryptoSwift.xcframework */,
 				407CFCDD26958B85004F2605 /* TVOS360Video.framework */,
 				407CFCDB26958B80004F2605 /* TruexAdRenderer.framework */,
 				407CFCD926958B7C004F2605 /* Starscream.framework */,

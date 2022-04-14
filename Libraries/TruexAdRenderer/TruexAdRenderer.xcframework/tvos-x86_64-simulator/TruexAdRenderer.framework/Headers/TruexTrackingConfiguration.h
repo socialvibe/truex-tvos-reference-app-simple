@@ -24,6 +24,8 @@
                      userId:(NSString*)userId;
 
 - (void)setAdVarsConfig:(NSDictionary*)adVars;
+- (void)setTrueAttentionTime:(NSNumber* _Nonnull)sec;
+- (void)setEngagementLoadTimestampOnce:(NSString* _Nonnull)timestamp;
 
 - (NSString*)getParam:(NSString*)name;
 - (NSString* _Nullable)getVariationFromExperiment:(NSString* _Nonnull)experimentName;
@@ -37,5 +39,8 @@
 - (NSString*)getPartnerId;
 - (NSString*)getPartnerConfigHash;
 - (NSString*)getUserAgent;
+- (NSString*)getTrueAttentionTime;
+- (NSString*)getEngagementLoadTimestamp;
+- (NSString*)getAppId;
 
 @end

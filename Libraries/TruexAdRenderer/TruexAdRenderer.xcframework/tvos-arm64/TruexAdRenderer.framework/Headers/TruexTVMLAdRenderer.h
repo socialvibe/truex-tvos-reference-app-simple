@@ -55,6 +55,7 @@
 - (void)resumeVideoPlayers;
 
 - (void)flagAchievedTrueAttention;
+- (void)onFooterTimeChange:(NSNumber* _Nonnull)sec;
 - (void)trackDisplayAreYouSure;
 - (void)trackDismissAreYouSure;
 
