@@ -1,6 +1,6 @@
 //
 //  TruexAdRenderer.h
-//  TruexAdRenderer v3.9.12
+//  TruexAdRenderer v3.9.13
 //
 //  Created by Jesse Albini on 8/30/17.
 //  Copyright © 2017 true[X]media. All rights reserved.

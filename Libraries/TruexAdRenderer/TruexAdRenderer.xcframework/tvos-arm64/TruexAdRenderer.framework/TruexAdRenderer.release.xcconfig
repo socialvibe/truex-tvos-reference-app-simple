@@ -1,2 +1,1 @@
 #include "Warnings.xcconfig"
-#include ".../Pods/Target Support Files/Pods-TruexAdRenderer/Pods-TruexAdRenderer.release.xcconfig"

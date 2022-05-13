@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/TruexAdRenderer.h</key>
 		<data>
-		1tF+5FsGyy4yu3rwiQ+E/sS/v7U=
+		TefmFo5phFPykkMK0zhY4vGhtXc=
 		</data>
 		<key>Headers/TruexApiJsSrcHandler.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UfbWbdHi74rzwoC9nDCvH6WPSMo=
+		Q6XEyLSjyDnlhQnsR4Gd9AmIv4E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -102,11 +102,11 @@
 		</data>
 		<key>Truex.storyboardc/AreYouSure.nib/objects-11.0+.nib</key>
 		<data>
-		YwUZcvIZGsVaQACFgSDSocSe1hM=
+		rCuweY0dmY/KncGapd9Esy/+i8I=
 		</data>
 		<key>Truex.storyboardc/AreYouSure.nib/runtime.nib</key>
 		<data>
-		+f63u9YNvETG/S2S3BOuaATm4eo=
+		NRNHp8xlg4GeVUv1ey/JpO3gKcE=
 		</data>
 		<key>Truex.storyboardc/Info.plist</key>
 		<data>
@@ -114,35 +114,35 @@
 		</data>
 		<key>Truex.storyboardc/hVW-6G-z53-view-aon-od-yyC.nib/objects-11.0+.nib</key>
 		<data>
-		0VgUE3wOqbuY66WIDJZANZ+0o3Y=
+		DnuIKfCKJyv/QQU99Ww9qidTMD4=
 		</data>
 		<key>Truex.storyboardc/hVW-6G-z53-view-aon-od-yyC.nib/runtime.nib</key>
 		<data>
-		eZEPn3oNiD22N40kIZj17IMHZhU=
+		RTLuwzVz8FxKsws8TpmzLv68bxo=
 		</data>
 		<key>TruexAdRenderer.debug.xcconfig</key>
 		<data>
-		1Uh5DeG4OLiam+vIxPGMvmLpNL4=
+		n2dZ/2Ctaw+KqfGuCz17jS2qcak=
 		</data>
 		<key>TruexAdRenderer.release.xcconfig</key>
 		<data>
-		V8eH2WRLlEtOZlOGk9Qnoatr0Pk=
+		n2dZ/2Ctaw+KqfGuCz17jS2qcak=
 		</data>
 		<key>TruexAdRendererTests.debug.xcconfig</key>
 		<data>
-		gvsPKc0mu+UFML7QUUqsHSsy7/c=
+		n2dZ/2Ctaw+KqfGuCz17jS2qcak=
 		</data>
 		<key>TruexAdRendererTests.release.xcconfig</key>
 		<data>
-		F5RXiAcARuutmFmU7DFqccJAgGE=
+		n2dZ/2Ctaw+KqfGuCz17jS2qcak=
 		</data>
 		<key>TruexAreYouSure.storyboardc/AreYouSure.nib/objects-11.0+.nib</key>
 		<data>
-		crp/vgpZfdxSycPZFhxpYsTMg9Y=
+		ST+9EdS+9QM1OrfczUMlIOxN7EE=
 		</data>
 		<key>TruexAreYouSure.storyboardc/AreYouSure.nib/runtime.nib</key>
 		<data>
-		+RCwYi78DkQl+KuR8tIJ9/HXYj8=
+		4euk2ns/IvtOXJsnQ0ReWFm+gGA=
 		</data>
 		<key>TruexAreYouSure.storyboardc/Info.plist</key>
 		<data>
@@ -150,11 +150,11 @@
 		</data>
 		<key>TruexAreYouSure.storyboardc/hVW-6G-z53-view-aon-od-yyC.nib/objects-11.0+.nib</key>
 		<data>
-		h6wxGonebHf1Vp6b8z0wpeHAK/w=
+		wS1XZfmpKvrlVVqMsEiAAF3bwhs=
 		</data>
 		<key>TruexAreYouSure.storyboardc/hVW-6G-z53-view-aon-od-yyC.nib/runtime.nib</key>
 		<data>
-		+XEcATURayZJvY6ngr39i0wXgLM=
+		El1DfJ/reLgsRKuwUbRPvszW54g=
 		</data>
 		<key>TruexTrueTargetingCore.js</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Warnings.xcconfig</key>
 		<data>
-		ZMFWhaDfLAc06DQfyEugdCr1oTE=
+		/FikS2eDgl8F4Ggrc9nr8EsldOk=
 		</data>
 		<key>browse_graphic@2x.png</key>
 		<data>
@@ -267,11 +267,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1tF+5FsGyy4yu3rwiQ+E/sS/v7U=
+			TefmFo5phFPykkMK0zhY4vGhtXc=
 			</data>
 			<key>hash2</key>
 			<data>
-			i6CYFdcmVIzq3PKq30poFyaA44KZ5ABkwnSpsO3xw6I=
+			5Sz1uM1ZeWJ6eQ1K2Ij1HjgHKIvk0X/4Qntc5r22v0k=
 			</data>
 		</dict>
 		<key>Headers/TruexApiJsSrcHandler.h</key>
@@ -476,22 +476,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YwUZcvIZGsVaQACFgSDSocSe1hM=
+			rCuweY0dmY/KncGapd9Esy/+i8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			t0qtj2JIXs6qdkUFvTXfF7DXg/KW6MwLuJc/XtAFSkw=
+			tSSF0NJ/G/0DHQvawc95/pYOUGqokEQXgiTp+CdVOjs=
 			</data>
 		</dict>
 		<key>Truex.storyboardc/AreYouSure.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+f63u9YNvETG/S2S3BOuaATm4eo=
+			NRNHp8xlg4GeVUv1ey/JpO3gKcE=
 			</data>
 			<key>hash2</key>
 			<data>
-			SskdQVbMDKzhJLwQmPaGB/CcS4Hp14+2n9T/wAYTaEc=
+			m7QbZQMw3vrnTiC/c6PKP+FQiLQ0rvT9jvq3U8LpMSs=
 			</data>
 		</dict>
 		<key>Truex.storyboardc/Info.plist</key>
@@ -509,88 +509,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0VgUE3wOqbuY66WIDJZANZ+0o3Y=
+			DnuIKfCKJyv/QQU99Ww9qidTMD4=
 			</data>
 			<key>hash2</key>
 			<data>
-			x1/Fb/HstcbVJgH6004/wk1vv2IjMYy1ZkwCZN3Wb+U=
+			WYcCQri5Ft+RVMzZpFBOse4Hwey5uIf0dEwnuCxEXGI=
 			</data>
 		</dict>
 		<key>Truex.storyboardc/hVW-6G-z53-view-aon-od-yyC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eZEPn3oNiD22N40kIZj17IMHZhU=
+			RTLuwzVz8FxKsws8TpmzLv68bxo=
 			</data>
 			<key>hash2</key>
 			<data>
-			TzGQOKbOqFwU6JJ2J3A0/QO7guUQFkKM90ItBhKNo68=
+			gT6jTv2MRm+dGdv762C+H47kTQEMyVroHeroy7RyQJ8=
 			</data>
 		</dict>
 		<key>TruexAdRenderer.debug.xcconfig</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1Uh5DeG4OLiam+vIxPGMvmLpNL4=
+			n2dZ/2Ctaw+KqfGuCz17jS2qcak=
 			</data>
 			<key>hash2</key>
 			<data>
-			QIkqRmOT5rSdZudsehqhSORm63+x1oUy8HqkqL8fdGI=
+			QbZw5yMKlxvxp4iDEGUB1WBTSNyq+snrgBnIYPFqlag=
 			</data>
 		</dict>
 		<key>TruexAdRenderer.release.xcconfig</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V8eH2WRLlEtOZlOGk9Qnoatr0Pk=
+			n2dZ/2Ctaw+KqfGuCz17jS2qcak=
 			</data>
 			<key>hash2</key>
 			<data>
-			EM8QuX6Bksr0G6BuIL/uhKhEqAbgUUdSKMJ3+ZG3/Ws=
+			QbZw5yMKlxvxp4iDEGUB1WBTSNyq+snrgBnIYPFqlag=
 			</data>
 		</dict>
 		<key>TruexAdRendererTests.debug.xcconfig</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gvsPKc0mu+UFML7QUUqsHSsy7/c=
+			n2dZ/2Ctaw+KqfGuCz17jS2qcak=
 			</data>
 			<key>hash2</key>
 			<data>
-			d6rhZi2R/TTVU+UlDeza4XzG1gq9jthLCmMdm66AhHc=
+			QbZw5yMKlxvxp4iDEGUB1WBTSNyq+snrgBnIYPFqlag=
 			</data>
 		</dict>
 		<key>TruexAdRendererTests.release.xcconfig</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F5RXiAcARuutmFmU7DFqccJAgGE=
+			n2dZ/2Ctaw+KqfGuCz17jS2qcak=
 			</data>
 			<key>hash2</key>
 			<data>
-			UkXLcKt9/7h+z1ix+uevqEwyJor8eMOBXfkxb4NWMq0=
+			QbZw5yMKlxvxp4iDEGUB1WBTSNyq+snrgBnIYPFqlag=
 			</data>
 		</dict>
 		<key>TruexAreYouSure.storyboardc/AreYouSure.nib/objects-11.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			crp/vgpZfdxSycPZFhxpYsTMg9Y=
+			ST+9EdS+9QM1OrfczUMlIOxN7EE=
 			</data>
 			<key>hash2</key>
 			<data>
-			VERAeP/9MCqw16B7Yby5TDAl/6uHH1F2cdiXeHF7E7Y=
+			36mSxpuVemM635avpgz013+gDIIbpM7jruXURLie5vQ=
 			</data>
 		</dict>
 		<key>TruexAreYouSure.storyboardc/AreYouSure.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+RCwYi78DkQl+KuR8tIJ9/HXYj8=
+			4euk2ns/IvtOXJsnQ0ReWFm+gGA=
 			</data>
 			<key>hash2</key>
 			<data>
-			PoYOMBLWgByE7iUI4ovEKCf/1Xr94bcNyhygn80oegA=
+			imO9cK6pVjE4M0RV7Hq/Nx4NGc5FPPpxbl86jvP1xPo=
 			</data>
 		</dict>
 		<key>TruexAreYouSure.storyboardc/Info.plist</key>
@@ -608,22 +608,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h6wxGonebHf1Vp6b8z0wpeHAK/w=
+			wS1XZfmpKvrlVVqMsEiAAF3bwhs=
 			</data>
 			<key>hash2</key>
 			<data>
-			7iOs12ZlEYwTOW+1VJ9XvYppeedKekgbXqrTL1qZOKk=
+			nVXV9VAIf0tydPmYfkV3oa2hB1jXhrUdOnPjWL1HUCI=
 			</data>
 		</dict>
 		<key>TruexAreYouSure.storyboardc/hVW-6G-z53-view-aon-od-yyC.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+XEcATURayZJvY6ngr39i0wXgLM=
+			El1DfJ/reLgsRKuwUbRPvszW54g=
 			</data>
 			<key>hash2</key>
 			<data>
-			vvt1t7DJoF/gMGXFPWtYgxiGehkeaDyhbR2eDteeoLc=
+			Zphmm99e7JIzBvjgwGH+KO6a5up7WIiYU9tcooJS+AE=
 			</data>
 		</dict>
 		<key>TruexTrueTargetingCore.js</key>
@@ -663,11 +663,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZMFWhaDfLAc06DQfyEugdCr1oTE=
+			/FikS2eDgl8F4Ggrc9nr8EsldOk=
 			</data>
 			<key>hash2</key>
 			<data>
-			BLH7MnrThm+NMud+z3S6/ws/RH+gNJGcqOvy1qod8Yo=
+			VqJNZmw9epvuN4wd8got/ZinGh2D4zqa2qGwfHWlfEo=
 			</data>
 		</dict>
 		<key>browse_graphic@2x.png</key>
