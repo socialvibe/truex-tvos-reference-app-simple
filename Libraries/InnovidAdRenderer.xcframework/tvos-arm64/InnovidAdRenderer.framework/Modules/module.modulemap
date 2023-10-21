@@ -1,0 +1,4 @@
+framework module InnovidAdRenderer {
+  header "InnovidAdRenderer-Swift.h"
+  requires objc
+}

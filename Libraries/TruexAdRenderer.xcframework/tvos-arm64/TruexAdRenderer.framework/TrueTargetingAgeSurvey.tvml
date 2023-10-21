@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document onload="
+        selectOption = function(id) {
+            TrueTargeting.onAnswer(id, 'AgeTrueTargetingRequirement');
+        };
+
+        optOut = function() {
+            const DefaultOptOutAge = '13-17';
+            TrueTargeting.recordAnswer(DefaultOptOutAge, 'AgeTrueTargetingRequirement');
+            TrueTargeting.optOut();
+        };
+    ">
+    <divTemplate>
+        <background>
+            <img src="https://media.truex.com/image_assets/2019-06-04/8f24f601-2171-493b-af4e-0bf6c5b51b1d.jpg"/>
+        </background>
+        <txview>
+            <!-- Opt Out Button -->
+            <txbutton id="button_opt_out"
+                      allowTracking="false"
+                      src="https://media.truex.com/image_assets/2019-10-16/474a3db8-d74a-4d7f-9905-3d3b1cf9cb70.png"
+                      hover_src="https://media.truex.com/image_assets/2019-10-16/fd00d3f9-b158-4f3a-a81d-25f060480925.png"
+                      hover_effect="false"
+                      onselect="optOut()"
+                      guide="left"
+                      width="376" height="108"
+                      x="1457" y="55"/>
+
+            <!-- 18-20 Bucket -->
+            <txbutton id="bucket-border-18_20"
+                      allowTracking="false"
+                      hover_effect="false"
+                      src="https://media.truex.com/image_assets/2019-10-16/b04ed929-b5a1-4f59-9d88-6460645fea17.png"
+                      hover_src="https://media.truex.com/image_assets/2019-10-16/c0b8fadc-603c-4141-843d-34eefec540ad.png"
+                      onselect="selectOption('18-20')"
+                      width="297" height="274"
+                      x="53" y="438"/>
+
+            <!-- 21-24 Bucket -->
+            <txbutton id="bucket-border-21_24"
+                      allowTracking="false"
+                      hover_effect="false"
+                      src="https://media.truex.com/image_assets/2019-10-16/5cc33540-b5db-42e7-81ad-8bde9a807b84.png"
+                      hover_src="https://media.truex.com/image_assets/2019-10-16/de06a623-de4d-4e3b-b3a2-1442a0a04fe7.png"
+                      onselect="selectOption('21-24')"
+                      width="297" height="274"
+                      x="306" y="438"/>
+
+            <!-- 25-34 Bucket -->
+            <txbutton id="bucket-border-25_34"
+                      allowTracking="false"
+                      hover_effect="false"
+                      src="https://media.truex.com/image_assets/2019-10-16/febdbf8e-ad7c-466a-b858-426814191796.png"
+                      hover_src="https://media.truex.com/image_assets/2019-10-16/6d058fa9-8373-4a68-914b-ecd7010b76d0.png"
+                      onselect="selectOption('25-34')"
+                      width="297" height="274"
+                      x="559" y="438"/>
+
+            <!-- 35-44 Bucket -->
+            <txbutton id="bucket-border-35_44"
+                      allowTracking="false"
+                      hover_effect="false"
+                      src="https://media.truex.com/image_assets/2019-10-16/b609bf89-e5e1-4726-8bf4-0b93c6e975cc.png"
+                      hover_src="https://media.truex.com/image_assets/2019-10-16/a302ede0-490e-4a48-bbc7-528f2c71c67a.png"
+                      onselect="selectOption('35-44')"
+                      width="297" height="274"
+                      x="812" y="438"/>
+
+            <!-- 45-49 Bucket -->
+            <txbutton id="bucket-border-45_49"
+                      allowTracking="false"
+                      hover_effect="false"
+                      src="https://media.truex.com/image_assets/2019-10-16/24257512-0163-45cf-896b-c33b8628342b.png"
+                      hover_src="https://media.truex.com/image_assets/2019-10-16/cb0a62b3-ab97-47ce-8956-229bef18a926.png"
+                      onselect="selectOption('45-49')"
+                      width="297" height="274"
+                      x="1065" y="438"/>
+
+            <!-- 50-54 Bucket -->
+            <txbutton id="bucket-border-50_54"
+                      allowTracking="false"
+                      hover_effect="false"
+                      src="https://media.truex.com/image_assets/2019-10-16/7de22703-ef81-4d38-a05b-742410576819.png"
+                      hover_src="https://media.truex.com/image_assets/2019-10-16/31e3d407-0a34-42f7-a6cf-3be0f0b58885.png"
+                      onselect="selectOption('50-54')"
+                      width="297" height="274"
+                      x="1318" y="438"/>
+
+            <!-- 55+ Bucket -->
+            <txbutton id="bucket-border-55+"
+                      allowTracking="false" 
+                      hover_effect="false"
+                      src="https://media.truex.com/image_assets/2019-10-16/f4f18930-b782-4ab6-9ec8-d99dbaf02935.png"
+                      hover_src="https://media.truex.com/image_assets/2019-10-16/cf0c66bf-2a3b-43ea-9e20-0efd52ffc47e.png"
+                      onselect="selectOption('Over 55')"
+                      width="297" height="274"
+                      x="1571" y="438"/>
+
+            <!-- Single Person Prompt -->
+            <tximage id="household_prompt"
+                      src="https://media.truex.com/image_assets/2019-10-16/f591405b-4b73-4cd4-8521-63055ae7172d.png"
+                      width="1920" height="1080"
+                      x="0" y="0"/>
+        </txview>
+    </divTemplate>
+</document>
