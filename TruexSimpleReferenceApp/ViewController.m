@@ -66,13 +66,13 @@ static int const MidrollAdBreakDimensionValue = 2;
     // workaround to always show the ad (simulates a different user each time):
     NSString *userId = [NSUUID UUID].UUIDString;
     
-    // final string should format to (network_user_id parameter will change value each time): qa-get.truex.com/bdfe2ba97e74172a75e325d307db6cfc16f92325/vast/config?asnw=&cpx_url=&dimension_2=2&stream_prosition=midroll&flag=%2Bamcb%2Bemcr%2Bslcb%2Bvicb%2Baeti-exvt&fw_key_values=&metr=0&network_user_id=93DDE21A-6F37-425D-A6E0-671329EE6A01&prof=g_as3_truex&ptgt=a&pvrn=&resp=vmap1&slid=fw_truex&ssnw=&stream_id=136083572&vdur=&vprn=
-    NSString *vastConfigUrl = [NSString stringWithFormat:@"qa-get.truex.com/bdfe2ba97e74172a75e325d307db6cfc16f92325/vast/config?asnw=&cpx_url=&dimension_2=%d&stream_prosition=%@&flag=%%2Bamcb%%2Bemcr%%2Bslcb%%2Bvicb%%2Baeti-exvt&fw_key_values=&metr=0&network_user_id=%@&prof=g_as3_truex&ptgt=a&pvrn=&resp=vmap1&slid=fw_truex&ssnw=&stream_id=136083572&vdur=&vprn=",
+    // final string should format to (network_user_id parameter will change value each time): 
+    // final string should format to (network_user_id parameter will change value each time):
+    NSString *vastConfigUrl = [NSString stringWithFormat:@"https://qa-get.truex.com/bdfe2ba97e74172a75e325d307db6cfc16f92325/vast/config?dimension_1=test&dimension_2=%d&stream_position=%@ network_user_id=%@",
                                MidrollAdBreakDimensionValue,
                                MIDROLL,
                                userId];
-//    NSString *vastConfigUrl = @"qa-get.truex.com/bdfe2ba97e74172a75e325d307db6cfc16f92325/vast/config?asnw=&cpx_url=&dimension_2=2&stream_prosition=midroll&flag=%2Bamcb%2Bemcr%2Bslcb%2Bvicb%2Baeti-exvt&fw_key_values=&metr=0&prof=g_as3_truex&ptgt=a&pvrn=&resp=vmap1&slid=fw_truex&ssnw=&stream_id=136083572&vdur=&vprn=";
-//    NSLog(@"[TRUEX DEBUG] requesting ad from Vast Config URL: %@", vastConfigUrl);
+    NSLog(@"[TRUEX DEBUG] requesting ad from Vast Config URL: %@", vastConfigUrl);
     
     // TODO: make this configurable outside the source code
     return @{
