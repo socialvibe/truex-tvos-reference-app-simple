@@ -78,7 +78,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mKoaiceWPNkmvygOcKtqjMnuogw=
+		EyRq6UVdXp+hTr5JcT0WvLARYl4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -172,9 +172,17 @@
 		<data>
 		/FikS2eDgl8F4Ggrc9nr8EsldOk=
 		</data>
+		<key>browse_graphic.png</key>
+		<data>
+		1JJTtApUSm33rgUZNhjSe3GDj8I=
+		</data>
 		<key>browse_graphic@2x.png</key>
 		<data>
 		hzuimZViqlk/fS8sSZQ0Rrxu5cM=
+		</data>
+		<key>circle_graphic.png</key>
+		<data>
+		M3AY/YZiDKesSciihwDhnwT3/yQ=
 		</data>
 		<key>circle_graphic@2x.png</key>
 		<data>
@@ -196,6 +204,14 @@
 		<data>
 		+q5vYFmhBZPIJogPbUkQDbOmt3E=
 		</data>
+		<key>fullscreen_minimize.png</key>
+		<data>
+		NJxUWdpHL5HSGlkLW3xAt+mJJRg=
+		</data>
+		<key>fullscreen_minimize_hover.png</key>
+		<data>
+		2AzNm8IWT6mgi2cqrQu18axGeqU=
+		</data>
 		<key>standard_browse_graphic.png</key>
 		<data>
 		I7pImHBrqRuW2fuERHJ5j3+tsWg=
@@ -208,9 +224,17 @@
 		<data>
 		R/Eh0YtymrlXPdgXFSbHbM2hMVU=
 		</data>
+		<key>watch_default.png</key>
+		<data>
+		8f/8l2XWY0DG82QdOuH3IM4K2cE=
+		</data>
 		<key>watch_default@2x.png</key>
 		<data>
 		Kd9PfC+uzPhk+DoTG3BLWV6pgT0=
+		</data>
+		<key>watch_highlight.png</key>
+		<data>
+		a4WJiDKbB9Z3dY9iMxJl1q6UlV4=
 		</data>
 		<key>watch_highlight@2x.png</key>
 		<data>
@@ -670,6 +694,17 @@
 			VqJNZmw9epvuN4wd8got/ZinGh2D4zqa2qGwfHWlfEo=
 			</data>
 		</dict>
+		<key>browse_graphic.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1JJTtApUSm33rgUZNhjSe3GDj8I=
+			</data>
+			<key>hash2</key>
+			<data>
+			PGa+NpgG2svNNkbYOu8t3HXy1HEle/RhBqTvXyki55o=
+			</data>
+		</dict>
 		<key>browse_graphic@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -679,6 +714,17 @@
 			<key>hash2</key>
 			<data>
 			WDMFSLGw5IifNr7V2l5KKF6BCCSy89ca7IOxuAwlPYM=
+			</data>
+		</dict>
+		<key>circle_graphic.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			M3AY/YZiDKesSciihwDhnwT3/yQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			JDMoiqREr0dKxyYgS6xRLKZLghAotFfW5e2K1xjcRec=
 			</data>
 		</dict>
 		<key>circle_graphic@2x.png</key>
@@ -736,6 +782,28 @@
 			4ABftAZ/MAG9U/FGQJ/dPG4hdP2OBi53NVHveWxj+MM=
 			</data>
 		</dict>
+		<key>fullscreen_minimize.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NJxUWdpHL5HSGlkLW3xAt+mJJRg=
+			</data>
+			<key>hash2</key>
+			<data>
+			KpKrXJotmflHjTm3XZqfCn84pDflIrQ8aktmaZbYCLU=
+			</data>
+		</dict>
+		<key>fullscreen_minimize_hover.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2AzNm8IWT6mgi2cqrQu18axGeqU=
+			</data>
+			<key>hash2</key>
+			<data>
+			1fgtSTD1khFsJ3rta8fRlVG23eYMo+gujfzVyu9WmAE=
+			</data>
+		</dict>
 		<key>standard_browse_graphic.png</key>
 		<dict>
 			<key>hash</key>
@@ -769,6 +837,17 @@
 			VRrjTCfirY1SutNC4dR9nsQ3pJoppcPB6BkKYPr0jrU=
 			</data>
 		</dict>
+		<key>watch_default.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8f/8l2XWY0DG82QdOuH3IM4K2cE=
+			</data>
+			<key>hash2</key>
+			<data>
+			pqcMLsnK4VczRcv7oLW6nZlzxX0XjDqM2NzN2O9QTok=
+			</data>
+		</dict>
 		<key>watch_default@2x.png</key>
 		<dict>
 			<key>hash</key>
@@ -778,6 +857,17 @@
 			<key>hash2</key>
 			<data>
 			rJI3AXhUL8U06c+xeDpDCDg+a+UNfzMUbafaFIF3eqk=
+			</data>
+		</dict>
+		<key>watch_highlight.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			a4WJiDKbB9Z3dY9iMxJl1q6UlV4=
+			</data>
+			<key>hash2</key>
+			<data>
+			uNFAyYsijgMbGIPSyllKAXinQtkfDEsp6EMi4/uilPk=
 			</data>
 		</dict>
 		<key>watch_highlight@2x.png</key>
