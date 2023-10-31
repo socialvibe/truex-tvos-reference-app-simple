@@ -75,7 +75,7 @@ static int const MidrollAdBreakDimensionValue = 2;
                                MidrollAdBreakDimensionValue,
                                MIDROLL,
                                userId];
-    NSString *vastConfigUrl = tvmlVastConfigUrl;
+    NSString *vastConfigUrl = innovidTvosVastConfigUrl;
     NSLog(@"[TRUEX DEBUG] requesting ad from Vast Config URL: %@", vastConfigUrl);
 
     // TODO: make this configurable outside the source code
