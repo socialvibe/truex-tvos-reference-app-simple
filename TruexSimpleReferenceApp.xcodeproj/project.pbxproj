@@ -13,9 +13,9 @@
 		40240E6C268D0BF100426D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40240E6B268D0BF100426D49 /* Assets.xcassets */; };
 		40240E6F268D0BF100426D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40240E6D268D0BF100426D49 /* LaunchScreen.storyboard */; };
 		40240E72268D0BF100426D49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40240E71268D0BF100426D49 /* main.m */; };
+		C01179EE2AF1C27A003A0E99 /* InnovidAdRenderer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C01179ED2AF1C27A003A0E99 /* InnovidAdRenderer.xcframework */; };
 		C0E38DEA2AE3506500A63C9E /* PusherSwift.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E38DE32AE3506500A63C9E /* PusherSwift.xcframework */; };
 		C0E38DEB2AE3506500A63C9E /* TVOS360Video.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E38DE42AE3506500A63C9E /* TVOS360Video.xcframework */; };
-		C0E38DEC2AE3506500A63C9E /* InnovidAdRenderer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E38DE52AE3506500A63C9E /* InnovidAdRenderer.xcframework */; };
 		C0E38DED2AE3506500A63C9E /* Reachability.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E38DE62AE3506500A63C9E /* Reachability.xcframework */; };
 		C0E38DEE2AE3506500A63C9E /* Starscream.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E38DE72AE3506500A63C9E /* Starscream.xcframework */; };
 		C0E38DEF2AE3506500A63C9E /* SDWebImage.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E38DE82AE3506500A63C9E /* SDWebImage.xcframework */; };
@@ -45,9 +45,9 @@
 		40240E6E268D0BF100426D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		40240E70268D0BF100426D49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40240E71268D0BF100426D49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C01179ED2AF1C27A003A0E99 /* InnovidAdRenderer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = InnovidAdRenderer.xcframework; path = Libraries/InnovidAdRenderer.xcframework; sourceTree = "<group>"; };
 		C0E38DE32AE3506500A63C9E /* PusherSwift.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = PusherSwift.xcframework; path = Libraries/PusherSwift.xcframework; sourceTree = "<group>"; };
 		C0E38DE42AE3506500A63C9E /* TVOS360Video.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = TVOS360Video.xcframework; path = Libraries/TVOS360Video.xcframework; sourceTree = "<group>"; };
-		C0E38DE52AE3506500A63C9E /* InnovidAdRenderer.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = InnovidAdRenderer.xcframework; path = Libraries/InnovidAdRenderer.xcframework; sourceTree = "<group>"; };
 		C0E38DE62AE3506500A63C9E /* Reachability.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Reachability.xcframework; path = Libraries/Reachability.xcframework; sourceTree = "<group>"; };
 		C0E38DE72AE3506500A63C9E /* Starscream.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Starscream.xcframework; path = Libraries/Starscream.xcframework; sourceTree = "<group>"; };
 		C0E38DE82AE3506500A63C9E /* SDWebImage.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SDWebImage.xcframework; path = Libraries/SDWebImage.xcframework; sourceTree = "<group>"; };
@@ -64,8 +64,8 @@
 				C0E38DEA2AE3506500A63C9E /* PusherSwift.xcframework in Frameworks */,
 				C0E38DEB2AE3506500A63C9E /* TVOS360Video.xcframework in Frameworks */,
 				C0E38DF02AE3506500A63C9E /* TruexAdRenderer.xcframework in Frameworks */,
-				C0E38DEC2AE3506500A63C9E /* InnovidAdRenderer.xcframework in Frameworks */,
 				C0E38DEE2AE3506500A63C9E /* Starscream.xcframework in Frameworks */,
+				C01179EE2AF1C27A003A0E99 /* InnovidAdRenderer.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,7 +108,7 @@
 		40971C71269503C9003CEFB4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0E38DE52AE3506500A63C9E /* InnovidAdRenderer.xcframework */,
+				C01179ED2AF1C27A003A0E99 /* InnovidAdRenderer.xcframework */,
 				C0E38DE32AE3506500A63C9E /* PusherSwift.xcframework */,
 				C0E38DE62AE3506500A63C9E /* Reachability.xcframework */,
 				C0E38DE82AE3506500A63C9E /* SDWebImage.xcframework */,
