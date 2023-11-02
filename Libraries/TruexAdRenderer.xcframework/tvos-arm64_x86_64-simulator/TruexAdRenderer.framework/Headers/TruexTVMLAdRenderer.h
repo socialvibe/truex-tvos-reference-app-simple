@@ -75,6 +75,8 @@
 
 - (BOOL)isPresentingViewController:(UIViewController*)controller;
 
+- (void)onTimeRequirementMet;
+
 // exposing these for child
 - (void)handleCompletedAd;
 - (void)sendJSLifeCycleEvents:(NSString*)key;

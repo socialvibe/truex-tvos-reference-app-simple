@@ -87,6 +87,7 @@
 - (void)trackAdClosedByFooterAfterCredit;
 - (void)trackAdClosedByCreativeAfterCredit;
 
+- (void)trackTrueAttentionTimeRequirementMet:(NSString* _Nonnull)timing;
 - (void)trackTrueAttentionInteractionRequirementMet:(NSString* _Nonnull)timing;
 
 - (void)trackEngagementQuartileStarted;
