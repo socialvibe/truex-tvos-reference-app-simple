@@ -1,6 +1,0 @@
-framework module TVOS360Video {
-  umbrella header "TVOS360Video-umbrella.h"
-
-  export *
-  module * { export * }
-}
